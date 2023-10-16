@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFCEAE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothify.controller.Reports_Controller">
+   <children>
+      <JFXButton fx:id="btnSave" layoutX="293.0" layoutY="81.0" onAction="#OnClickSave" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: F47458;" text="Save" textFill="WHITE" />
+      <JFXButton fx:id="btnPrint" layoutX="400.0" layoutY="75.0" onAction="#OnClickPrint" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: F47458;" text="Print" textFill="WHITE" />
+      <JFXButton fx:id="btnDelete" layoutX="498.0" layoutY="75.0" onAction="#OnClickDelete" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: F47458;" text="Delete" textFill="WHITE" />
+   </children>
+</AnchorPane>

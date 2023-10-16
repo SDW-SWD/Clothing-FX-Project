@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFCEAE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothify.controller.Item_Controller">
+   <children>
+      <JFXTextField layoutX="689.0" layoutY="73.0" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: ffffff;" />
+      <JFXTextField layoutX="210.0" layoutY="50.0" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: ffffff;" />
+      <JFXTextField layoutX="46.0" layoutY="50.0" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="46.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item_ID" />
+      <Text layoutX="210.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier_ID" />
+      <Text layoutX="689.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
+      <Text layoutX="593.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY" />
+      <JFXTextField layoutX="593.0" layoutY="128.0" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: ffffff;" />
+      <JFXTextField layoutX="591.0" layoutY="67.0" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="591.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling_Price" />
+      <JFXButton fx:id="btnUpdateStock" layoutX="41.0" layoutY="275.0" onAction="#OnClickUpdateStock" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: F47458;" text="Update Stock" textFill="WHITE" />
+      <JFXButton fx:id="btnPrint" layoutX="150.0" layoutY="275.0" onAction="#OnClickPrint" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: F47458;" text="Print" textFill="WHITE" />
+      <JFXButton fx:id="btnClear" layoutX="249.0" layoutY="275.0" onAction="#OnClickClear" onMouseClicked="#OnClickButton" prefHeight="40.0" prefWidth="88.0" style="-fx-background-color: F47458;" text="Clear" textFill="WHITE" />
+      <JFXTextField layoutX="345.0" layoutY="118.0" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="345.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item_Name" />
+      <JFXTextField layoutX="85.0" layoutY="127.0" prefHeight="26.0" prefWidth="133.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="85.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item_Description" />
+      <JFXTextField layoutX="489.0" layoutY="181.0" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="489.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buying_Price" />
+      <JFXTextField layoutX="175.0" layoutY="212.0" prefHeight="26.0" prefWidth="273.0" style="-fx-background-color: ffffff;" />
+      <Text layoutX="175.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search" />
+      <TableView layoutX="412.0" layoutY="207.0" prefHeight="200.0" prefWidth="273.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

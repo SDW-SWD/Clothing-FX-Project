@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="805.0" prefWidth="1215.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothify.controller.Home_controller">
+   <children>
+      <Label layoutX="28.0" layoutY="44.0" prefHeight="716.0" prefWidth="292.0" style="-fx-background-color: #FFCEAE; -fx-background-radius: 30;" />
+      <Label layoutX="337.0" layoutY="51.0" prefHeight="708.0" prefWidth="848.0" style="-fx-background-color: #FFCEAE; -fx-background-radius: 30;" />
+      <JFXButton fx:id="btn_order" layoutX="60.0" layoutY="289.0" onAction="#OnClickListnerOrder" prefHeight="49.0" prefWidth="222.0" text="Order" AnchorPane.leftAnchor="60.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/img_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_item" layoutX="47.0" layoutY="371.0" onAction="#OnClickListnerItem" prefHeight="49.0" prefWidth="216.0" text="Item" AnchorPane.leftAnchor="47.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/img_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_supplier" layoutX="59.0" layoutY="451.0" onAction="#OnClickListnerSupplier" prefHeight="49.0" prefWidth="216.0" text="Supplier" AnchorPane.leftAnchor="59.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/img_3.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_reports" layoutX="58.0" layoutY="539.0" onAction="#OnClickListnerReports" prefHeight="49.0" prefWidth="216.0" text="Reports" AnchorPane.leftAnchor="58.0">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/img_4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="31.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
